@@ -7,10 +7,10 @@ def sum_cubos(num):
     
     suma = 0
     for x in range(0, len(digits)):
-        suma += int(digits[x])**2
+        suma += int(digits[x])**3
         
     return suma
     
     
-print(sum_cubos(25)) #29
-print(sum_cubos(352)) #38
+print(sum_cubos(25)) #133
+print(sum_cubos(352)) #160
